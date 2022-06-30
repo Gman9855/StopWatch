@@ -15,6 +15,7 @@
 		7C95E0912863AD1400559E0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C95E08F2863AD1400559E0F /* LaunchScreen.storyboard */; };
 		7C95E09C2863AD1400559E0F /* StopWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C95E09B2863AD1400559E0F /* StopWatchTests.swift */; };
 		7C95E0A72863AD1500559E0F /* StopWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C95E0A62863AD1500559E0F /* StopWatchUITests.swift */; };
+		7C95E0B82863AE2200559E0F /* StopWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C95E0B72863AE2200559E0F /* StopWatchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7C95E0A22863AD1500559E0F /* StopWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C95E0A62863AD1500559E0F /* StopWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchUITests.swift; sourceTree = "<group>"; };
 		7C95E0A82863AD1500559E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C95E0B72863AE2200559E0F /* StopWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				7C95E0842863AD0B00559E0F /* AppDelegate.swift */,
 				7C95E0862863AD0B00559E0F /* SceneDelegate.swift */,
 				7C95E0882863AD0B00559E0F /* ViewController.swift */,
+				7C95E0B72863AE2200559E0F /* StopWatchViewModel.swift */,
 				7C95E08A2863AD0B00559E0F /* Main.storyboard */,
 				7C95E08D2863AD1400559E0F /* Assets.xcassets */,
 				7C95E08F2863AD1400559E0F /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C95E0B82863AE2200559E0F /* StopWatchViewModel.swift in Sources */,
 				7C95E0892863AD0B00559E0F /* ViewController.swift in Sources */,
 				7C95E0852863AD0B00559E0F /* AppDelegate.swift in Sources */,
 				7C95E0872863AD0B00559E0F /* SceneDelegate.swift in Sources */,
